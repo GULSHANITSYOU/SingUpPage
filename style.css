@@ -1,120 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@100&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau:wght@100&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .outer-box {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(to top left  ,#3ed8ff , #a8f5ff );
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
 }
 .inner-box {
-    width: 400px;
-    margin: 0  auto;
-    position: relative;
-    top: 5%;
-    transform: translate(-1%);
-    padding: 20px 40px;
-    background:linear-gradient(to top left , #ffffffff , #ffffff33);
-    webkit-backdrop-filter:bulr(10px);
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px  #3498db;
-    z-index: 2;
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 5%;
+  transform: translate(-1%);
+  padding: 20px 40px;
+  background: linear-gradient(to top left, #ffffffff, #ffffff33);
+  webkit-backdrop-filter: bulr(10px);
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #3498db;
+  z-index: 2;
 }
 
-
 .inner-box h1 {
-    font-size: 2.6rem;
-    color: #212212;
+  font-size: 2.6rem;
+  color: #212212;
 }
 
 .singup-header p {
-    font-size:0.9rem;
-    color: #82845e;
-    
+  font-size: 0.9rem;
+  color: #82845e;
 }
 
 .singup-header {
-    padding: 8px ;
+  padding: 8px;
 }
 
 .singup-body {
-    padding: 10px;
+  padding: 10px;
 }
 .singup-body p {
-    padding: 8px 0px;
+  padding: 8px 0px;
 }
 
-.singup-body label{
-    display: block;
-    font-weight: bold;
+.singup-body label {
+  display: block;
+  font-weight: bold;
 }
 
-.singup-body label:hover{
-    color: #3d5253;
+.singup-body label:hover {
+  color: #3d5253;
 }
 
-.singup-body p input{
-    width: 100%;
-    padding: 9px 20px;
-    border: 3px solid #4e530e;
-    border-radius: 10px;
-    font-size:0.9rem;
+.singup-body p input {
+  width: 100%;
+  padding: 9px 20px;
+  border: 2px solid #144357;
+  border-radius: 10px;
+  font-size: 0.8rem;
 }
 
-.singup-body p input[type="submit"]{
-    background-color: #3498db;
-    border: none;
-    color: aliceblue;
-    cursor: pointer;
+.singup-body p input[type="submit"] {
+  background-color: #3498db;
+  border: none;
+  color: aliceblue;
+  cursor: pointer;
 }
 
-.singup-body p input[type="submit"]:hover{
-    background-color: #094b78;
+.singup-body p input[type="submit"]:hover {
+  background-color: #094b78;
 }
 
 .singup-footer p {
-    color: #555;
-    text-align: center;
-
+  color: #555;
+  text-align: center;
 }
 
-.singup-footer p  a {
-    color: #3498db;
+.singup-footer p a {
+  color: #3498db;
 }
 
-
-.circuls{
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    background:linear-gradient(to top right , #ffffff33 , #ffffffff  );
-    position: absolute;
+.circuls {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: linear-gradient(to top right, #ffffff33, #ffffffff);
+  position: absolute;
 }
-
 
 .c1 {
-    top:100px; 
-    left:40px; 
+  top: 100px;
+  left: 40px;
 }
 
 .c2 {
-    bottom: 100px;
-    right: 40px;
+  bottom: 100px;
+  right: 40px;
 }
 
 #img {
-    width: 120px;
-    height: 120px;
-    border-radius: 54px;
-    
+  width: 120px;
+  height: 120px;
+  border-radius: 54px;
 }
